@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+{
+    margin:0
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    z-index: 1000;
+}
+
+a:hover {
+    color: hsl(178, 57%, 44%);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border: none;
+    outline: none;
+}
+
+.nav-links {
+display: flex;
+flex-direction: row;
+gap: 30px;
+align-items: center;
+position: relative;
+width: 100%;
+left: 160px;
+color: black;
+font-weight: 500;
+cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+#H{
+    color: red;
+}
+#H:hover{
+    color: hsl(178, 57%, 44%);
+}
+
+.hero{
+     background-image: url(./softypinko/istockphoto-1215380721-612x612.jpg);
+    height: 800px;
+    width: 100%;
+    background-blend-mode:multiply;
+    background-color: rgba(5, 48, 65, 0.909);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.hero-text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 3.0rem;
+
+}
+
+span{
+    font-weight: 900;
+}
+
+.btn1{
+    background-color: #1e6a88;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 200;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.25px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    transform: all 1.3s ease;
+}
+
+.btn1:hover{
+    background-color: hsl(178, 57%, 44%);
+    padding: 15px 25px;
+    letter-spacing: 3px;
+}
+.hero-text :nth-child(2){
+    font-weight: 200;
+    font-size: medium;
+    line-height: normal;
+    margin-top: 40px;
+
+}
+
+section{
+
+   
+    /* height: 800px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.sub1{
+   
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    bottom: 280px;
+    
+}
+
+.sub1>div{
+    height: 60%;
+    width: 25%;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 8px rgb(20, 1, 1, 0.2);
+    transition: all 2s ease;
+    
+}
+
+.sub1 div:hover {
+    transform: scale(1.05) translateY(-40px);
+}
+
+.icon {
+    font-size: 20px;
+    background-color: hsl(178, 57%, 44%);
+    border-radius: 50%;
+    padding: 23px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.sub1 div:hover .icon {
+    background-color: hsl(2, 63%, 54%);
+}
+
+.sub1 > div > h3 {
+    font-size: 21px;
+    font-weight: 100;
+    opacity: 0.6;
+}
+
+.sub1 > div > p {
+    font-size: 13px;
+    font-weight: lighter;
+    opacity: 0.4;
+}
+
+#about {
+    height: 100vh;
+    width: 100vw;
+}
+
+.left {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 60px;
+    position: relative;
+    bottom: 360px;
+}
+
+.left1 {
+    height: 85%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(30);
+    object-fit: contain;
+}
+
+.left1 > img {
+    width: 50%;
+}
+.left2 {
+    height: 85%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left2 h3 {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.left2 p {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.543);
+}
+
+.right {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    bottom: 450px;
+    padding: 20px;
+}
+
+.right div {
+    height: 85%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.right > .right-text h3 {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+
+}
+
+.right > .right-text p {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.543);
+}
+
+#workprocess {
+    border: 2px solid red;
+    height: 600px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-image: url(./softypinko/blog-item-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(10, 156, 141, 0.753);
+    background-blend-mode: multiply;
+    padding: 30px;
+}
+
+.wp1 {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.wp2 {
+    border: 2px solid blueviolet;
+    height: 60%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    margin-left: 25px;
+}
+.wp2 > div {
+    height: 45%;
+    width: 10%;
+    border-radius: 15%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+     box-shadow: 10px 10px rgb(0, 0, 0, 0.4);
+}
+.wp2 > div > i {
+   font-size: 40px;
+    border-radius: 50%;
+    padding: 23px;
+    transition: all 0.5s ease;
+
+    color:rgba(10, 156, 141, 0.753) ;
+}
+.wp2 > div > p {
+    text-align: center;
+}

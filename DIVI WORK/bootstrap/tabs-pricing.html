@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Design Exhibition</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./price-tabs.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-info bg-info">
+        <div class="container text-white">
+            <a href="" class="navbar-brand">Greater Insurance 🛡</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarMenu">
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+        </div>
+         <div class="collapse navbar-collapse text-light" id="NavMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="#" class="nav-link"> Home </a></li>
+                <li class="nav-item"> <a href="#About" class="nav-link"> About</a></li>
+                <li class="nav-item"><a href="#Plans" class="nav-link active"> Plans </a></li>
+                <li class="nav-item"><a href="#Agents" class="nav-link"> Agents </a></li>
+            </ul>
+            <button class="btn btn-light" data-bs-target="#Menu" data-bs-toggle="offcanvas">Menu</button>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" id="Menu" tabindex="-1"  data-bs-scroll="true">
+        <div class="offcanvas-header">
+            <h5>Menu</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        
+        <div class="offcanvas-body">
+            <ul class="nav flex-column">
+                <li class="p-2">
+                    <button class="bg-dark text-white rounded-2 p-2">
+                        Sign Up/Sign In
+                    </button>
+                </li>
+                <li class="p-2">
+                    <button class="bg-dark text-white rounded-2 p-2">
+                        Investment
+                    </button>
+                </li>
+                <li class="p-2">
+                    <button class="bg-dark text-white rounded-2 p-2">
+                        FAQs
+
+                    </button>
+                </li>
+                <li class="p-2">
+                    <button class="bg-dark text-white rounded-2 p-2">
+                        Support
+
+                    </button>
+                </li>
+                
+            </ul>
+        </div>
+    </div>    
+        
+
+    <!-- Hero Section -->
+            <section class="p-5 mb-3 bg-light text-center" id="hero">
+        <div>
+        <h1> Our Vision</h1>
+        <p class="text-capitalize lead"> Secure The Future of over 10 million homes worldwide</p>
+        <a href="" class="btn btn-outline-dark mt-3 ">Get Started</a>
+        </div>
+    </section>
+
+
+    <!--Plan Tabs-->  
+             <section id="Plans" class=" bg-info text-center mb-4">
+    <div class="p-2 mt-3">
+        <h3 class="text-uppercase py-4"> Our Plans</h3>
+        <p class="lead text-capitalize"> 
+            Select your preferred insurance plan
+        </p>
+
+
+         <div class="container">
+            <ul class="nav nav-tabs mb-3" id="Tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button 
+                    class="nav-link active text-dark"
+                    type="button"
+                    id="pol1-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Tab1"> Individual
+
+                    </button>
+
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button
+                    class="nav-link text-dark"
+                    type="button"
+                    id="pol2-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Tab2"
+                    > Family
+
+                    </button>
+
+
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button
+                    class="nav-link text-dark"
+                    type="button"
+                    id="pol3-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Tab3">Business
+
+                    </button>
+
+
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active text-white" id="Tab1">
+                    <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-dark bg-light">
+                 <div class="card-header bg-dark text-white">
+                    <h5 class="card-title my-0"> Individual </h5>
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-title">$100</h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li> Unlimited Projects </li>
+                        <li> 100GB Storage </li>
+                        <li> Priority Email Support </li>
+                        <li> Advanced Analytics </li>
+                        <li> Custom Domains </li>
+                    </ul>
+                    <button class="text-white btn btn-dark" > Subscribe </button>
+                    
+
+                </div>
+        </div>
+            </div>
+
+
+                    
+                </div>
+
+                <div class="tab-pane fade text-white" id="Tab2">
+                   <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-dark bg-light">
+                 <div class="card-header bg-dark text-white">
+                    <h5 class="card-title my-0"> Family </h5>
+                </div>
+
+                <div class="card-body ">
+                    <h2 class="card-title">$500</h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li> Unlimited Projects </li>
+                        <li> 100GB Storage </li>
+                        <li> Priority Email Support </li>
+                        <li> Advanced Analytics </li>
+                        <li> Custom Domains </li>
+                    </ul>
+                    <button class="text-white btn btn-dark" > Subscribe </button>
+                    
+
+                </div>
+        </div>
+            </div>
+
+                </div>
+
+                <div class="tab-pane fade text-white" id="Tab3">
+                   <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-dark bg-light">
+                 <div class="card-header bg-dark text-white">
+                    <h5 class="card-title my-0"> Business/Corporations </h5>
+                </div>
+
+                <div class="card-body ">
+                    <h2 class="card-title">$1500</h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li> Unlimited Projects </li>
+                        <li> 100GB Storage </li>
+                        <li> Priority Email Support </li>
+                        <li> Advanced Analytics </li>
+                        <li> Custom Domains </li>
+                    </ul>
+                    <button class="text-white btn btn-dark" > Subscribe </button>
+                    
+
+                </div>
+        </div>
+            </div>
+                </div>
+            </div>
+
+         </div>
+
+    </div>
+      
+     </section>
+
+    <!--Agents-->
+        <section id="Agents" class=" text-center p-5 mt-4 bg-info">
+        <h3 class="text-uppercase text-dark">Meet Our Agents</h3>
+ <div class="container">
+    <div class="row text-center">
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow bg-light">
+                
+                <img src="./brooke-cagle-JBwcenOuRCg-unsplash.jpg" 
+                alt=""
+                class="img-fluid card-img-top p-3">
+                <h5 class="card-title"> Sarah Willams</h5>
+                <p> GI Agent</p>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow bg-light">
+                
+                <img src="./eye-for-ebony-OeXcIHFwtsM-unsplash.jpg" 
+                alt=""
+                class="img-fluid card-img-top p-3">
+                <h5 class="card-title text-center px-3"> Ebony Ayo</h5>
+                <p> GI Agent</p>
+
+            </div>
+
+
+        </div>
+
+       
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow bg-light">
+                
+                <img src="./new photos/brooke-cagle-LCcFI_26diA-unsplash.jpg" 
+                alt=""
+                class="img-fluid card-img-top p-3">
+                <h5 class="card-title"> Anthonia Richway</h5>
+                <p> Top Family Agent</p>
+
+
+            </div>
+        </div>
+
+        
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 bg-light p-4">
+                <img src="./new photos/linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg" 
+                alt=""
+                class="img-fluid card-img-top p-3">
+                <h5 class="card-title text-center px-3"> Cagle Brooke</h5>
+                <p> GI Agent</p>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow bg-light">
+                
+                <img src="./new photos/yingchou-han-IJrIeCs3D4g-unsplash.jpg" 
+                alt=""
+                class="img-fluid card-img-top p-3">
+                <h5 class="card-title"> Emmanuel King</h5>
+                <p> Top Business Agent</p>
+
+
+            </div>
+
+
+        </div>
+       
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow bg-light">
+                
+                <img src="./new photos/warren-VVEwJJRRHgk-unsplash.jpg" 
+                alt=""
+                class="img-fluid card-img-top p-3">
+                <h5 class="card-title"> Phil Simon</h5>
+                <p> GI Agent</p>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+ </div>       
+  
+
+      <footer class="bg-dark text-white text-center py-2 mt-4">
+      <small>&copy; 2025 Greater Insurance® All rights reserved </small>
+    </footer>
+     
+        
+                
+
+                 <script src="./bootstrap-5.3.7/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
